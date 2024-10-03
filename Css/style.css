@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+ul ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,div,ul,ol,a,header,p,span{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.navbar-nav .nav-item .nav-link .active{
+    background-color: #31d7ce;
+}
+
+
+/* font-family: "Open Sans", sans-serif; */
+/* font-family: "Oswald", sans-serif; */
+
+
+/* banner part css start here */
+
+.banner{
+    background-image: url('../img/05-VEER.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 315px 0;
+}
+
+.banner .banner_cont h1{
+    color: #31d7ce;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+}
+
+.banner .banner_cont button{
+    color: #31d7ce;
+    border: 1px solid #d1d1d1;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    padding: 18px 35px;
+    border-radius: 30px;
+}
+.about_img{
+    padding-top: 50px;
+}
+
+.about_cont{
+    padding-left: 50PX;
+    padding-top: 120px;
+}
+.about_cont h1{
+    padding-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #252525;
+}
+.about_cont p{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: #2f2f2f;
+}
+/* banner part css end here */
+/* servics part start */
+.servics_text{
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+.servics_text h1{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+}
+.servics_photo img{
+    margin-top: 30px;
+}
+
+.servics_text-01{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.servics_text-01 h1{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 5px;
+}
+.servics_text-01 p {
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+}
+.my work_img h1{
+    text-align: center;
+}
+
+/* servics part end */
+/* fun css part  */
+.servics_fun{
+    background-image: url(../img/backroun.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px 0;
+ }
+.content_fun img{
+
+}
+.content_fun{
+    margin: 20px 0;
+    bottom: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: 10px; */
+}
+.content_photo_text{
+    margin: 1px;
+    /* padding-bottom: 10px; */
+    text-align: center;
+}
+.content_photo_text h4{
+    font-size: 18px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    /* padding-bottom: 10px; */
+}
+.content_photo_text p{
+    text-align: center;
+    color: white;
+    /* padding-bottom: 10px; */
+}
+/* blog part css start */
+.content_blog{
+    padding-top: 10px;
+    padding-bottom: 150px;
+}
+.content_blog h4{
+    padding-top: 3px;
+    padding-bottom: 4px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #333333;
+}
+.content_blog p{
+    padding-top: 3px;
+    padding-bottom: 4px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: #adadad;
+}
+.content_blog h5{
+        padding-top: 10px;
+        padding-bottom: 4px;
+        font-family: "Poppins", sans-serif;
+        font-size: 13px;
+        text-transform: uppercase;
+        color: #555555;
+    }
+
+/* blog part css end */
+.back{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.back h4{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+}
+.back button{
+    color: white;
+    border: 1px solid #d1d1d1;
+    background-color: brown;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border-radius: 30px;
+
+}
+.servics_b{
+    background-color: #50d18d;
+    padding: 100px;
+}
+.Nayem {
+    color:aquamarine;
+    border-radius: 40%;
+}
+
+
+ /* fun part ccc */
+
+
+
+/* footer part css start */
+
+.tt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer{
+    background-color: black;
+    padding: 100px;
+}
+ .footer_part{
+    
+}
+.footer_text h3{
+    color: white;
+    text-wrap: nowrap;
+}
+
+
+.div3{
+    height: 100%;
+    width: 2px;
+    background-color: white;
+}
+.djhf{
+    padding: 120px 0;
+}
+.d-flex{
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif; 
+}
+.d-flex a {
+    font-size: 15px;
+}
+.div1 bordert h4{
+    padding-bottom: 14px;
+}
+/* footer part css end */
